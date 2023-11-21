@@ -1,10 +1,10 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
 build_from:
-  aarch64: "hub.docker.com/r/datadog/agent"
-  amd64: "hub.docker.com/r/datadog/agent"
-  armhf: "hub.docker.com/r/datadog/agent"
-  armv7: "hub.docker.com/r/datadog/agent"
-  i386: "hub.docker.com/r/datadog/agent"
+  aarch64: "datadog/agent"
+  amd64: "datadog/agent"
+  armhf: "datadog/agent"
+  armv7: "datadog/agent"
+  i386: "datadog/agent"
 labels:
   org.opencontainers.image.title: "Home Assistant Add-on: Example add-on"
   org.opencontainers.image.description: "Example add-on to use as a blueprint for new add-ons."
