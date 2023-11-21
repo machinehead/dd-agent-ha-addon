@@ -11,4 +11,5 @@ RUN \
 # Copy root filesystem
 COPY rootfs /
 
-CMD ["/etc/services.d/example/run"]
+# CMD ["/etc/services.d/example/run"]
+ENTRYPOINT ["/init"]
