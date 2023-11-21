@@ -11,7 +11,7 @@ init: false
 map:
   - share:rw
 options:
-  message: "Hello world..."
+  - DD_API_KEY
 schema:
-  message: "str?"
+  DD_API_KEY: "str"
 image: "ghcr.io/machinehead/{arch}-dd-agent-ha-addon"
