@@ -2,9 +2,6 @@
 build_from:
   aarch64: "datadog/agent"
   amd64: "datadog/agent"
-  armhf: "datadog/agent"
-  armv7: "datadog/agent"
-  i386: "datadog/agent"
 labels:
   org.opencontainers.image.title: "Home Assistant Add-on: Example add-on"
   org.opencontainers.image.description: "Example add-on to use as a blueprint for new add-ons."
