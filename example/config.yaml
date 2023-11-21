@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: HomeAssistant DataDog Agent Addon
-version: "1.4.0"
+version: "1.5.0"
 slug: dd-agent-ha-addon
 description: HomeAssistant DataDog Agent Addon
 url: "https://github.com/machinehead/dd-agent-ha-addon/tree/main/example"
