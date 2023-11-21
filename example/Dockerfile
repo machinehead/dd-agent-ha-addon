@@ -10,3 +10,5 @@ RUN \
 
 # Copy root filesystem
 COPY rootfs /
+
+CMD ["/etc/services.d/example/run"]
