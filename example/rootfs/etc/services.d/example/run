@@ -8,7 +8,9 @@
 declare DD_API_KEY
 
 ## Get the 'message' key from the user config options.
-DD_API_KEY=$(bashio::config 'DD_API_KEY')
+export DD_API_KEY=$(bashio::config 'DD_API_KEY')
+
+bashio::log.info "DD_API_KEY: ${DD_API_KEY}"
 
 ## Run your program
 exec /bin/entrypoint.sh
