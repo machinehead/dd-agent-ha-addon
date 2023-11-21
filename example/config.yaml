@@ -14,4 +14,4 @@ options:
   message: "Hello world..."
 schema:
   message: "str?"
-image: "ghcr.io/home-assistant/{arch}-dd-agent-ha-addon"
+image: "ghcr.io/machinehead/{arch}-dd-agent-ha-addon"
